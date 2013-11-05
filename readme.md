@@ -11,7 +11,7 @@
 1. Understand basic JavaScript - functions, control structures, scope.
 
 ## Summary
-Revisit the [Roman Numerals]() challenge in JavaScript. Since you already know how to solve this, focus on using TDD and finding a more eloquent solution while implementing it in JavaScript. 
+Revisit the [Roman Numerals](http://socrates.devbootcamp.com/challenges/33) challenge in JavaScript. Since you already know how to solve this, focus on using TDD and finding a more eloquent solution while implementing it in JavaScript. 
 * Open the `roman.html` file in chrome and the console to see your first failing test.  
 * Write all your tests in the `roman_spec file` and all your solution code in the `roman.js` code.
 * If you like you can make a visual assert function to show your failing tests in the html (see below).
