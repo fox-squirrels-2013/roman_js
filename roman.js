@@ -1,51 +1,46 @@
-// Write your roman numeral code here
-
 function roman(number){
-  var numeral=""
+  var numeral="";
+  var numerals = {"C": 100, "L": 50, "X": 10, "V": 5, "I": 1};
 
-  if (number >= 100)
+  for (var numbers in numerals)
   {
-    while (number >= 100)
+    console.log(numbers)
+    while (number >= numbers)
     {
-      numeral+="C"
-      number-=100
-    }
-  }
-  
-  if (number >= 50)
-  {
-    while (number >= 50)
-    {
-      numeral+="L";
-      number-=50;
+      console.log(number)
+      number  -= numbers;
+      numeral += numerals;
     }
   }
 
-  if (number >= 10)
-  {
-    while (number >= 10)
-    {
-      numeral+="X";
-      number-=10;
-    }
-  }
+  // while (number >= 100)
+  // {
+  //   numeral+="C"
+  //   number-=100
+  // }
 
-  if (number >= 5)
-  {
-    while (number >= 5)
-    {
-      numeral+="V";
-      number-=5;
-    }
-  }
+  // while (number >= 50)
+  // {
+  //   numeral+="L";
+  //   number-=50;
+  // }
 
-  if (number >= 1)
-    {
-      while (number > 0) 
-      {
-        numeral+="I";
-        number--;
-      }
-    }
+  // while (number >= 10)
+  // {
+  //   numeral+="X";
+  //   number-=10;
+  // }
+
+  // while (number >= 5)
+  // {
+  //   numeral+="V";
+  //   number-=5;
+  // }
+
+  // while (number > 0) 
+  // {
+  //   numeral+="I";
+  //   number--;
+  // }
   return numeral;
 }
