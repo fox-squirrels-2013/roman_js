@@ -15,4 +15,12 @@ assert(roman(13)=="XIII", "it converts 13 to XIII")
 assert(roman(23)=="XXIII", "it converts 23 to XXIII")
 assert(roman(40)=="XXXX", "it converts 40 to XXXX")
 assert(roman(45)=="XXXXV", "it converts 45 to XXXXV")
+assert(roman(100)=="C", "it converts 100 to C")
+assert(roman(145)=="CXXXXV", "it converts 145 to CXXXXV")
+assert(roman(233)=="CCXXXIII", "it converts 233 to CCXXXIII")
+assert(roman(500)=="D", "it converts 500 to D")
+assert(roman(505)=="DV", "it converts 505 to DV")
+assert(roman(1000)=="M", "it converts 1000 to M")
+assert(roman(9999)=="MMMMMMMMMDCCCCLXXXXVIIII", "it converts 9999 to MMMMMMMMMDCCCCLXXXXVIIII")
+
 
